@@ -25,3 +25,5 @@ while True:
     if data:
         server_socket.sendto(message.encode('utf-8'), address)
         print('Replied to client: ', message)
+
+#version update test
